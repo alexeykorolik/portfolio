@@ -1,1 +1,123 @@
-.work-intro{display:grid;grid-template-columns:1fr .75fr;gap:10vw;margin-bottom:120px}.work-intro h1{font-size:clamp(4.6rem,10vw,10rem)}.work-intro p{font-size:1.1rem;align-self:end}.work-list{border-top:1px solid var(--ink)}.work-feature{padding:25px 0 110px;border-bottom:1px solid var(--line)}.work-feature .project-visual{max-width:90%;aspect-ratio:1.72}.work-copy{display:grid;grid-template-columns:1fr 1fr;gap:35px;margin-top:27px;padding-left:10%}.work-copy .project-num{grid-column:1/-1;margin:0}.work-copy h2{font-size:clamp(3.4rem,6vw,6rem)}.work-copy p{font-size:1rem}.work-copy .project-tags,.work-copy .project-links{grid-column:2}.work-subproject{display:grid;grid-template-columns:80px minmax(240px,.95fr) 1fr auto;gap:28px;padding:58px 0;border-bottom:1px solid var(--line);align-items:start}.work-subproject .project-num{margin:0}.work-subproject .project-visual{grid-column:2;aspect-ratio:1.08}.work-subproject h3{font-size:2.45rem;margin-bottom:13px}.work-subproject p{font-size:.92rem}.work-subproject .project-links{align-self:end}.work-subproject:nth-child(3) .project-visual{max-width:250px;aspect-ratio:.76;margin-left:14%}@media(max-width:760px){.work-intro{grid-template-columns:1fr;gap:25px;margin-bottom:75px}.work-feature{padding-bottom:70px}.work-feature .project-visual{max-width:100%}.work-copy{display:block;padding:0;margin-top:22px}.work-copy .project-num{margin-bottom:17px}.work-copy h2{margin-bottom:16px}.work-copy p{margin-bottom:18px}.work-copy .project-tags{margin-bottom:19px}.work-subproject{grid-template-columns:40px 1fr;gap:14px;padding:40px 0}.work-subproject .project-visual,.work-subproject h3,.work-subproject p,.work-subproject .project-links{grid-column:2}.work-subproject h3{font-size:2.15rem}.work-subproject:nth-child(3) .project-visual{margin-left:0;max-width:180px}}
+.work-intro {
+  display: grid;
+  grid-template-columns: 1fr 0.75fr;
+  gap: 10vw;
+  margin-bottom: 120px;
+}
+.work-intro h1 {
+  font-size: clamp(4.6rem, 10vw, 10rem);
+}
+.work-intro p {
+  font-size: 1.1rem;
+  align-self: end;
+}
+.work-list {
+  border-top: 1px solid var(--ink);
+}
+.work-feature {
+  padding: 25px 0 110px;
+  border-bottom: 1px solid var(--line);
+}
+.work-feature .project-visual {
+  max-width: 90%;
+  aspect-ratio: 1.72;
+}
+.work-copy {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+  margin-top: 27px;
+  padding-left: 10%;
+}
+.work-copy .project-num {
+  grid-column: 1/-1;
+  margin: 0;
+}
+.work-copy h2 {
+  font-size: clamp(3.4rem, 6vw, 6rem);
+}
+.work-copy p {
+  font-size: 1rem;
+}
+.work-copy .project-tags,
+.work-copy .project-links {
+  grid-column: 2;
+}
+.work-subproject {
+  display: grid;
+  grid-template-columns: 80px minmax(240px, 0.95fr) 1fr auto;
+  gap: 28px;
+  padding: 58px 0;
+  border-bottom: 1px solid var(--line);
+  align-items: start;
+}
+.work-subproject .project-num {
+  margin: 0;
+}
+.work-subproject .project-visual {
+  grid-column: 2;
+  aspect-ratio: 1.08;
+}
+.work-subproject h3 {
+  font-size: 2.45rem;
+  margin-bottom: 13px;
+}
+.work-subproject p {
+  font-size: 0.92rem;
+}
+.work-subproject .project-links {
+  align-self: end;
+}
+.work-subproject:nth-child(3) .project-visual {
+  max-width: 250px;
+  aspect-ratio: 0.76;
+  margin-left: 14%;
+}
+@media (max-width: 760px) {
+  .work-intro {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 75px;
+  }
+  .work-feature {
+    padding-bottom: 70px;
+  }
+  .work-feature .project-visual {
+    max-width: 100%;
+  }
+  .work-copy {
+    display: block;
+    padding: 0;
+    margin-top: 22px;
+  }
+  .work-copy .project-num {
+    margin-bottom: 17px;
+  }
+  .work-copy h2 {
+    margin-bottom: 16px;
+  }
+  .work-copy p {
+    margin-bottom: 18px;
+  }
+  .work-copy .project-tags {
+    margin-bottom: 19px;
+  }
+  .work-subproject {
+    grid-template-columns: 40px 1fr;
+    gap: 14px;
+    padding: 40px 0;
+  }
+  .work-subproject .project-visual,
+  .work-subproject h3,
+  .work-subproject p,
+  .work-subproject .project-links {
+    grid-column: 2;
+  }
+  .work-subproject h3 {
+    font-size: 2.15rem;
+  }
+  .work-subproject:nth-child(3) .project-visual {
+    margin-left: 0;
+    max-width: 180px;
+  }
+}

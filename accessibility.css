@@ -1,1 +1,27 @@
-:focus-visible{outline:2px solid var(--green);outline-offset:4px}.btn:focus-visible,.nav-links a:focus-visible,.project-links a:focus-visible,.footer-links a:focus-visible{outline-offset:5px}::selection{background:var(--green);color:var(--white)}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 4px;
+}
+.btn:focus-visible,
+.nav-links a:focus-visible,
+.project-links a:focus-visible,
+.footer-links a:focus-visible {
+  outline-offset: 5px;
+}
+::selection {
+  background: var(--green);
+  color: var(--white);
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
