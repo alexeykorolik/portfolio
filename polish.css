@@ -1,1 +1,2 @@
 /* Reserved for small page-specific refinements. The visual system lives in styles.css. */
+.project-visual.has-image img,.case-visual.has-image img{display:none!important}.project-visual--scout.has-image{background:#f7f7f3 url('assets/scoutboard-home.png') center/cover no-repeat}.project-visual--para.has-image{background:#f7f5ef url('assets/para-store-home.png') center/cover no-repeat}.case-visual.has-image{background:#f7f7f3 url('assets/scoutboard-home.png') center/cover no-repeat}.case-visual.has-image.mobile-preview{background-image:url('assets/scoutboard-home.png')}
