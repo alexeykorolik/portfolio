@@ -8,7 +8,19 @@
   background: #f7f7f3 url("assets/scoutboard-home.png") center / cover no-repeat;
 }
 .project-visual--para.has-image {
-  background: #f7f5ef url("assets/para-store-home.png") center / cover no-repeat;
+  background: #f7f5ef;
+}
+
+.project-visual--para.has-image img {
+  display: block !important;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+.work-subproject .project-visual--para {
+  aspect-ratio: 1.6;
 }
 .project-visual--chess.has-image {
   background: #e7e8eb;
@@ -111,5 +123,9 @@ body {
   }
   .hackathon-team {
     width: 100%;
+  }
+
+  .work-subproject .project-visual--para {
+    aspect-ratio: 1.6;
   }
 }
